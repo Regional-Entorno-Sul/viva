@@ -11,7 +11,7 @@ Exemplo: viva.exe --campo61
 
 ## Detalhamento das modalidades  
 --autolesao: nessa modalidade, são identificadas as notificações cujos pacientes sofreram lesões autoprovocadas e o tipo de violência não está marcada como "Sim" para "Outros", pois é caracterizada uma inconsistência se, nesse caso, o tipo de violência estiver marcada como "Sim" para outros tipos, como física, psicológica/moral, sexual, etc.  
---campo61: essa modalidade verifica se as notificações do bloco 61 da ficha de violência (vínculo/grau de parentesco com a pessoa atendida) estão com os itens todos em branco ou todos marcados como ignorado. Em caso afirmativo e se o campo da data de encerramento da investigação estiver preenchida, é gerado um arquivo mostrando quais notificações contêm essa incompletude.  
+--campo61: essa modalidade verifica se as notificações do bloco 61 da ficha de violência (vínculo/grau de parentesco com a pessoa atendida) estão com os itens todos em branco ou todos marcados como ignorado. Em caso afirmativo e se o campo da data de encerramento da investigação estiver preenchida, indicando que a investigação do caso foi iniciada, é gerado um arquivo mostrando quais notificações contêm essa incompletude.  
 --excluir: segundo a coordenação do VIVA, as notificações identificadas nessa modalidade, devem ser excluídas do sistema por não estar em conformidade com os critérios adotaddos para notificação de casos de violência interpessoal/autoprovocada no SINAN NET, ou seja:  
 1) a vítima da violência é do sexo masculino;  
 2) não é um indígena;  
