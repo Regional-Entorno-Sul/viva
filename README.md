@@ -23,8 +23,8 @@ Exemplo: viva.exe --campo61
 8) o vínculo/grau de parentesco com a pessoa atendida estiver marcado como "amigos/conhecidos" ou "desconhecidos";  
 Os casos que se enquadram nos critérios mostrados acima são identificados e listados no arquivo de saída do programa para que sejam excluídos do sistema pelo operador responsável.  
 --sexismo: identifica os registros de violência cuja paciente seja do sexo feminino e:  
-1) o campo vínculo/grau de parentesco com a pessoa atendida deve estar marcado com uma das seguintes opções: cônjuge, ex-cônjuge, namorado(a) ou ex-namorado(a);  
-2) o tipo de violência for física ou psicológica/moral ou tortura ou sexual ou violência financeira/econômica ou negligência/abandono;  
+a) o campo vínculo/grau de parentesco com a pessoa atendida deve estar marcado com uma das seguintes opções: cônjuge, ex-cônjuge, namorado(a) ou ex-namorado(a);  
+b) o tipo de violência for física ou psicológica/moral ou tortura ou sexual ou violência financeira/econômica ou negligência/abandono;  
 Se os critérios acima estão identificados na notificação, é obrigatório que o campo "Essa violência foi motivada por:" esteja marcada como "sexismo", se não estiver, se trata de uma inconsistência e a notificação deve ser corrijida;  
 --autolesao2: caracteriza inconsistência notificações de pacientes com autolesão e o campo "vínculo/grau de parentesco com a pessoa atendida" não estiver marcado como "Sim", para o item "Propria pessoa". Essa modalidade identifica os registros com essa inconsistência e gera um arquivo com os registros com esse problema para que possa ser realizada a correção necessária;  
 --envolvidos: essa modalidade identifica os registros cuja violência seja autoprovocada e o número de envolvidos seja mais de um, ou seja, se a violência foi provocada pelo próprio paciente, o número de envolvidos não pode ser diferente de um, se houver mais de um envolvido, trata-se de uma inconsistência e, portanto, deve ser realizada uma correção.  
