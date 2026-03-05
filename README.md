@@ -1,21 +1,14 @@
 # viva
 Verifica inconsistências e incompletudes em notificações de violência interpessoal/autoprovocada em arquivos de exportação de violência gerado pelo SINAN NET.  
+O utilitário só funciona usando o prompt de comando do Windows e para usá-lo é necessário que o usuário digite além do nome do executável do programa (viva.exe), o argumento da modalidade que define o que será processado pelo programa.  
+
 ## Sintaxe do executável  
 
 ~~~
 viva.exe [--modalidade]  
---autolesao: identifica inconsistência envolvendo casos de autolesao;   
---campo61: identifica inconsistências no campo 61 da ficha de notificação: vinculo/grau de parentesco com a pessoa atendida;  
---excluir: identifica casos que não estão em conformidade com os critérios usados para notificação de casos de violência estipulados pelo VIVA e devem ser excluídos;  
---sexismo: marca os registros no arquivo exportado de casos de violência que não estão de acordo com a motivação marcada como sexismo;  
---autolesao2: identifica outras inconsistências relacionadas a autolesao;  
---envolvidos: identifica registros inconsistentes que usam o campo 60, número de envolvidos;  
---autolesao3: outro argumento usado para identificar inconsistências que utilizam o campo 54, que identifica lesões autoprovocadas ou não;  
---trab_infant: identifica registros com inconsistência quando o tipo de violência é caracterizado como trabalho infantil;  
---pai: identifica inconsistência quando o vínculo de parentesco for o pai;  
---dt_nasc: identifica os casos em que a data de nascimento do paciente é igual a data da notificação, o que é uma inconsistência;  
---vio_sex_ign: 
+Exemplo: viva.exe --campo61
 ~~~
+
 ## Detalhamento das modalidades  
 --autolesao: nessa modalidade, são identificadas as notificações cujos pacientes sofreram lesões autoprovocadas e o tipo de violência não está marcada como "Sim" para "Outros", pois é caracterizada uma inconsistência se, nesse caso, o tipo de violência estiver marcada como "Sim" para outros tipos, como física, psicológica/moral, sexual, etc.  
 --campo61: essa modalidade verifica se as notificações do bloco 61 da ficha de violência (vínculo/grau de parentesco com a pessoa atendida) estão com os itens todos em branco ou todos marcados como ignorado. Em caso afirmativo e se o campo da data de encerramento da investigação estiver preenchida, é gerado um arquivo mostrando quais notificações contêm essa incompletude.  
