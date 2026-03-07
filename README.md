@@ -64,7 +64,7 @@ Para esse utilitário funcionar, o usuário deverá rodar o arquivo executável 
 Após a pesquisa, abrir o prompt de comando;  
 ![x](/pictures/viva_prompt.jpg)  
 ![x](/pictures/viva_prompt1.jpg)  
-Dentro da tela do prompt, digitar "cd\" (sem as aspas) e pressionar ENTER;  
+Dentro da tela do prompt, digitar "cd\\" (sem as aspas) e pressionar ENTER;  
 ![x](/pictures/viva_prompt2.jpg);  
 Para acessar a pasta do "viva", digite "cd viva" (sem as aspas) e pressione ENTER;  
 ![x](/pictures/viva_prompt3.jpg);  
