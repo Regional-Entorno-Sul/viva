@@ -65,13 +65,13 @@ Após a pesquisa, abrir o prompt de comando;
 ![x](/pictures/viva_prompt.jpg)  
 ![x](/pictures/viva_prompt1.jpg)  
 Dentro da tela do prompt, digitar "cd\\" (sem as aspas) e pressionar ENTER;  
-![x](/pictures/viva_prompt2.jpg);  
+![x](/pictures/viva_prompt2.jpg)  
 Para acessar a pasta do "viva", digite "cd viva" (sem as aspas) e pressione ENTER;  
-![x](/pictures/viva_prompt3.jpg);  
+![x](/pictures/viva_prompt3.jpg)  
 Agora já é possivel rodar o arquivo executável "viva.exe" dentro do prompt, digitando da forma demonstrada abaixo:  
-![x](/pictures/viva_prompt4.jpg);  
+![x](/pictures/viva_prompt4.jpg)  
 O usuário então, além da modalidade mostrada, "--autolesao", poderá optar por usar quaisquer outras disponíveis na seção "detalhamento das modalidades" mostrada nesse texto;  
-![x](/pictures/viva_prompt_final.jpg);  
+![x](/pictures/viva_prompt_final.jpg)  
 
 
 
