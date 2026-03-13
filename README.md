@@ -13,14 +13,14 @@ Exemplo: viva.exe --campo61
 **--autolesao**: nessa modalidade, são identificadas as notificações cujos pacientes sofreram lesões autoprovocadas e o tipo de violência não está marcada como "Sim" para "Outros", pois é caracterizada uma inconsistência se, nesse caso, o tipo de violência estiver marcada como "Sim" para outros tipos, como física, psicológica/moral, sexual, etc.  
 **--campo61**: essa modalidade verifica se as notificações do bloco 61 da ficha de violência (vínculo/grau de parentesco com a pessoa atendida) estão com os itens todos em branco ou todos marcados como ignorado. Em caso afirmativo e se o campo da data de encerramento da investigação estiver preenchida, indicando que a investigação do caso foi iniciada, é gerado um arquivo mostrando quais notificações contêm essa incompletude.  
 **--excluir**: segundo a coordenação do VIVA, as notificações identificadas nessa modalidade, devem ser excluídas do sistema por não estar em conformidade com os critérios adotaddos para notificação de casos de violência interpessoal/autoprovocada no SINAN NET, ou seja:
-1) a vítima da violência é do sexo masculino;  
-2) não é um indígena;  
-3) o campo da orientação sexual é heterossexual ou está marcado como ignorado;  
-4) tem idade entre 20 anos e menor ou igual a 59 anos;  
-5) o paciente não tem deficiência ou transtorno marcado na ficha;  
-6) o paciente não sofreu autolesão;  
-7) o tipo de violência na notificação for física;  
-8) o vínculo/grau de parentesco com a pessoa atendida estiver marcado como "amigos/conhecidos" ou "desconhecidos";  
+a) a vítima da violência é do sexo masculino;  
+b) não é um indígena;  
+c) o campo da orientação sexual é heterossexual ou está marcado como ignorado;  
+d) tem idade entre 20 anos e menor ou igual a 59 anos;  
+e) o paciente não tem deficiência ou transtorno marcado na ficha;  
+f) o paciente não sofreu autolesão;  
+g) o tipo de violência na notificação for física;  
+h) o vínculo/grau de parentesco com a pessoa atendida estiver marcado como "amigos/conhecidos" ou "desconhecidos";  
 Os casos que se enquadram nos critérios mostrados acima são identificados e listados no arquivo de saída do programa para que sejam excluídos do sistema pelo operador responsável.  
 **--sexismo**: identifica os registros de violência cuja paciente seja do sexo feminino e:  
 a) o campo vínculo/grau de parentesco com a pessoa atendida deve estar marcado com uma das seguintes opções: cônjuge, ex-cônjuge, namorado(a) ou ex-namorado(a);  
