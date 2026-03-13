@@ -75,8 +75,12 @@ O usuário então, além da modalidade mostrada, "--autolesao", poderá optar po
 Caso o usuário escolha a modalidade "--automatic", o programa irá gerar, de forma automática, as planilhas com todas as modalidades disponíveis. Entretanto, nessa modalidade, as planilhas que não possuem dados, ou seja que não foi encontrada nenhuma notificação inconsistente ou com incompletude, não aparecerá na subpasta "out", local onde ficam as planilhas após o processamento. Inclusive, as planilhas que aparecerem nesta subpasta (out) tem o formato DBF e o nome delas é formado pelo prefixo "violenet_" seguido do nome da modalidade, conforme mostra a figura abaixo.  
 ![x](/pictures/viva_out.jpg)  
 
-
-
+## Outras considerações  
+Esse utilitário é de código fonte aberto, o que significa que as instruções e comandos que define como o programa funciona, se comporta ou interage é aberto para quem quiser ler. Neste caso, quando o usuário faz o download do programa, além de arquivos e subpastas, há o arquivo "viva.prg" que é o código fonte.  
+A divulgação do código fonte tem a vantagem de permitir a auditoria individual ou comunitária, promovendo maior segurança e transparência, pois permite visualizar como o programa funciona, garantindo ao usuário que o programa não oferece riscos como ações indesejadas ou ocultas do que foi proposto na documentação deste.  
+O próprio usuário pode verificar a segurança do produto utilizando ferramentas on-line como o VirusTotal (https://www.virustotal.com/gui/home/upload) e e o Kaspersky Threat Intelligence Portal (https://opentip.kaspersky.com). O VirusTotal, por exemplo, é um serviço online que faz a análise de arquivos em busca de vírus, malwares ou algum conteúdo malicioso e se utiliza de mais de 70 antivirus que analisam de forma simultânea a segurança do arquivo apontado pelo usuário.  
+Para isso, basta o usuário fazer o upload do arquivo baixado na seção de releases em dos serviços relatados acima e após a análise, avaliar se há algum risco em usá-lo.  
+![x](/pictures/viva_sec.jpg)  
 
 
 
