@@ -70,22 +70,10 @@ Para acessar a pasta do "viva", digite "cd viva" (sem as aspas) e pressione ENTE
 ![x](/pictures/viva_prompt3.jpg)  
 Agora já é possivel rodar o arquivo executável "viva.exe" dentro do prompt, digitando da forma demonstrada abaixo:  
 ![x](/pictures/viva_prompt4.jpg)  
-O usuário então, além da modalidade mostrada, "--autolesao", poderá optar por usar quaisquer outras disponíveis na seção "detalhamento das modalidades" mostrada nesse texto;  
+O usuário então, além da modalidade mostrada, "--autolesao", poderá optar por usar quaisquer outras disponíveis na seção "detalhamento das modalidades" mostrada nesse documento;  
 ![x](/pictures/viva_prompt_final.jpg)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Caso o usuário escolha a modalidade "--automatic", o programa irá gerar, de forma automática, as planilhas com todas as modalidades disponíveis. Entretanto, nessa modalidade, as planilhas que não possuem dados, ou seja que não foi encontrada nenhuma notificação inconsistente ou com incompletude, não aparecerá na subpasta "out", local onde ficam as planilhas após o processamento.  
+![x](/pictures/viva_prompt_out.jpg)  
 
 
 
