@@ -70,7 +70,7 @@ Para acessar a pasta do "viva", digite "cd viva" (sem as aspas) e pressione ENTE
 ![x](/pictures/viva_prompt3.jpg)  
 Agora já é possivel rodar o arquivo executável "viva.exe" dentro do prompt, digitando da forma demonstrada abaixo:  
 ![x](/pictures/viva_prompt4.jpg)  
-O usuário então, além da modalidade mostrada, "--autolesao", poderá optar por usar quaisquer outras disponíveis na seção "detalhamento das modalidades" mostrada nesse documento;  
+O usuário então, além da modalidade mostrada, "--autolesao", poderá optar por usar quaisquer outras disponíveis na seção "detalhamento das modalidades" mostrada nesse documento. Lembrando que se o usuário optar por gerar uma modalidade individualmente, uma planilha será gerada e ficará disponível na subpasta "out", independente do programa ter encontrado notificações inconsistentes com a modalidade escolhida pelo usuário;  
 ![x](/pictures/viva_prompt_final.jpg)  
 Caso o usuário escolha a modalidade "--automatic", o programa irá gerar, de forma automática, as planilhas com todas as modalidades disponíveis. Entretanto, nessa modalidade, as planilhas que não possuem dados, ou seja que não foi encontrada nenhuma notificação inconsistente ou com incompletude, não aparecerá na subpasta "out", local onde ficam as planilhas após o processamento. Inclusive, as planilhas que aparecerem nesta subpasta (out) tem o formato DBF e o nome delas é formado pelo prefixo "violenet_" seguido do nome da modalidade, conforme mostra a figura abaixo.  
 ![x](/pictures/viva_out.jpg)  
