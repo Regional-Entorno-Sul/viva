@@ -48,6 +48,7 @@ b) a paciente for do sexo feminino e o sexo do provável autor da violência nã
 Quando os critérios acima se corresponderem, o caso é de inconsistência e precisa de correção pois se o(a) paciente é autor da própria agressão, o autor da violência, por ser a própria vítima, não pode ser de sexos diferentes;  
 **--ciclo_vida**: nessa modalidade são identificados os casos cuja lesão foi autoprovocada e o autor da agressão é a própria pessoa. Nesse caso, o ciclo de vida do provável autor da violência (campo 64), deve corresponder ao ciclo de vida do paciente, já que se trata da mesma pessoa. O caderno de análises do VIVA considera essa uma inconsistência que deve corrigida no SINAN NET;  
 **--sexismo2**: considera-se inconsistência quando o paciente é do sexo masculino e a motivação da violência for sexismo, pois segundo o instrutivo do VIVA, apenas pessoas do sexo feminino podem se enquadrar nessa motivação (sexismo);  
+**--geracional**: identifica notificações de violência motivadas por conflito geracional entre irmãos. O instrutivo do VIVA considera que esse tipo de motivação só ocorre entre gerações mais novas e gerações mais idosas, portanto casos assim são inconsistências que precisam de revisão.  
 **--automatic**: gera todas as modalidades disponíveis pelo programa de forma automática sem necessidade de digitar na linha de comando uma modalidade por vez.  
 ## Como usar?  
 O usuário deve fazer o download do programa usando a seção de Releases. Sempre usar a última versão disponível nesta seção.  
