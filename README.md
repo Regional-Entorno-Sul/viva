@@ -1,4 +1,4 @@
-,# viva
+# viva
 Verifica inconsistências e incompletudes em notificações de violência interpessoal/autoprovocada em arquivos de exportação de violência gerado pelo SINAN NET.  
 As inconsistências e incompletudes que o programa visa detectar são descritas nos instrutivos de violência interpessoal e autoprovocada e no caderno de análise de violência interpessoal/autoprovocada, ambas publicações do Ministério da Saúde e disponibilizadas livremente na Internet, assim como também capacitação/treinamento promovido pelo VIVA estadual.  
 O utilitário só funciona usando o prompt de comando do Windows e para usá-lo é necessário que o usuário digite além do nome do executável do programa (viva.exe), o argumento da modalidade que define o que será processado pelo programa.  
