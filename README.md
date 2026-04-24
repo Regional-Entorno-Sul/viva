@@ -1,4 +1,4 @@
-# viva
+,# viva
 Verifica inconsistências e incompletudes em notificações de violência interpessoal/autoprovocada em arquivos de exportação de violência gerado pelo SINAN NET.  
 As inconsistências e incompletudes que o programa visa detectar são descritas nos instrutivos de violência interpessoal e autoprovocada e no caderno de análise de violência interpessoal/autoprovocada, ambas publicações do Ministério da Saúde e disponibilizadas livremente na Internet, assim como também capacitação/treinamento promovido pelo VIVA estadual.  
 O utilitário só funciona usando o prompt de comando do Windows e para usá-lo é necessário que o usuário digite além do nome do executável do programa (viva.exe), o argumento da modalidade que define o que será processado pelo programa.  
@@ -49,6 +49,7 @@ Quando os critérios acima se corresponderem, o caso é de inconsistência e pre
 **--ciclo_vida**: nessa modalidade são identificados os casos cuja lesão foi autoprovocada e o autor da agressão é a própria pessoa. Nesse caso, o ciclo de vida do provável autor da violência (campo 64), deve corresponder ao ciclo de vida do paciente, já que se trata da mesma pessoa. O caderno de análises do VIVA considera essa uma inconsistência que deve corrigida no SINAN NET;  
 **--sexismo2**: considera-se inconsistência quando o paciente é do sexo masculino e a motivação da violência for sexismo, pois segundo o instrutivo do VIVA, apenas pessoas do sexo feminino podem se enquadrar nessa motivação (sexismo);  
 **--geracional**: identifica notificações de violência motivadas por conflito geracional entre irmãos. O instrutivo do VIVA considera que esse tipo de motivação só ocorre entre gerações mais novas e gerações mais idosas, portanto, casos assim, são inconsistências que precisam de revisão.  
+**ideacao**: segundo o instrutivo do VIVA, os casos de lesão autoprovocada cujo tipo de violência estejam marcados como "outros" e especificando neste campo ideação suicida, idéias suicidas, pensamentos suicidas, etc, não devem ser notificados. Neste caso, a notificação deverá ser excluídas da base de dados.  
 **--automatic**: gera todas as modalidades disponíveis pelo programa de forma automática sem necessidade de digitar na linha de comando uma modalidade por vez.  
 ## Como usar?  
 O usuário deve fazer o download do programa usando a seção de Releases. Sempre usar a última versão disponível nesta seção.  
